@@ -1,0 +1,40 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    background-color: white;
+    text-align: center;
+}
+
+/* Navbar styling */
+nav {
+    background-color: #ff5a5f;
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+ul li {
+    float: left;
+    margin-right: 1rem;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Image resize for a more workable scaling option */
+.listing img.image {
+    width: 100%;
+    max-width: 40%;
+    height: auto;
+    max-height: 40rem;
+}
